@@ -1,0 +1,49 @@
+name: RizzlersAnnouncements
+version: 1.0.0
+main: online.rizzlers.announcements.RizzlersAnnouncements
+api-version: '26.3'
+author: RIZZLERS
+description: Staff-only formatted announcements for an individual RIZZLERS backend.
+commands:
+  re:
+    description: Announce a server restart
+    usage: /re
+    permission: rizzlersannouncements.use
+  mn:
+    description: Announce maintenance
+    usage: /mn
+    permission: rizzlersannouncements.use
+  ev:
+    description: Announce an event
+    usage: /ev
+    permission: rizzlersannouncements.use
+  up:
+    description: Announce a server update
+    usage: /up
+    permission: rizzlersannouncements.use
+  nw:
+    description: Announce network news to this server's players
+    usage: /nw
+    permission: rizzlersannouncements.use
+  warn:
+    description: Send an important warning
+    usage: /warn
+    permission: rizzlersannouncements.use
+  custom:
+    description: Send a custom announcement
+    usage: /custom <message>
+    permission: rizzlersannouncements.use
+  announcements:
+    description: Manage RizzlersAnnouncements plugin
+    usage: /announcements reload
+    aliases:
+      - rannouncements
+      - rannounce
+    permission: rizzlersannouncements.admin
+permissions:
+  rizzlersannouncements.use:
+    description: Allows sending RIZZLERS announcements
+    default: op
+  rizzlersannouncements.admin:
+    description: Allows administrative announcement plugin actions
+    default: op

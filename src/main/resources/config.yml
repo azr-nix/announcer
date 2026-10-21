@@ -1,0 +1,17 @@
+# MiniMessage formatting supported: https://docs.papermc.io/adventure/minimessage/format/
+# These announcements are broadcast to players on THIS backend only.
+messages:
+  no-permission: "<red>You do not have permission to send announcements.</red>"
+  reload-success: "<green>RizzlersAnnouncements configuration reloaded successfully.</green>"
+  reload-failed: "<red>Failed to reload configuration: %error%</red>"
+  custom-usage: "<yellow>Usage: /custom <message></yellow>"
+  no-template: "<red>No template configured for announcement '%key%'.</red>"
+
+templates:
+  restart: "<gradient:#ff4fd8:#7c4dff><bold>RIZZLERS RESTART</bold></gradient> <gray>»</gray> <white>The server will restart shortly. Please find a safe location and prepare to reconnect.</white>"
+  maintenance: "<gradient:#ff4fd8:#7c4dff><bold>RIZZLERS MAINTENANCE</bold></gradient> <gray>»</gray> <white>Maintenance is starting soon. You may be disconnected while updates are applied.</white>"
+  event: "<gradient:#ff4fd8:#7c4dff><bold>RIZZLERS EVENT</bold></gradient> <gray>»</gray> <white>A community event is coming up! Stay tuned for details.</white>"
+  update: "<gradient:#ff4fd8:#7c4dff><bold>RIZZLERS UPDATE</bold></gradient> <gray>»</gray> <white>Server updates are being applied. Thank you for your patience.</white>"
+  news: "<gradient:#ff4fd8:#7c4dff><bold>RIZZLERS NEWS</bold></gradient> <gray>»</gray> <white>Check our community channels for the latest news and announcements.</white>"
+  warning: "<red><bold>RIZZLERS WARNING</bold></red> <gray>»</gray> <white>Please follow the server rules and listen to staff instructions.</white>"
+  custom-prefix: "<gradient:#ff4fd8:#7c4dff><bold>RIZZLERS ANNOUNCEMENT</bold></gradient> <gray>»</gray> <white>%message%</white>"
